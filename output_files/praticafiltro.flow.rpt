@@ -1,5 +1,5 @@
 Flow report for praticafiltro
-Mon Aug 01 10:20:35 2022
+Mon Aug 01 11:33:47 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,20 +40,20 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Mon Aug 01 10:20:33 2022           ;
+; Flow Status                        ; Successful - Mon Aug 01 11:33:46 2022           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; praticafiltro                                   ;
 ; Top-level Entity Name              ; top-level                                       ;
 ; Family                             ; Cyclone II                                      ;
 ; Device                             ; EP2C20F484C7                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 116 / 18,752 ( < 1 % )                          ;
-;     Total combinational functions  ; 91 / 18,752 ( < 1 % )                           ;
-;     Dedicated logic registers      ; 69 / 18,752 ( < 1 % )                           ;
-; Total registers                    ; 69                                              ;
-; Total pins                         ; 8 / 315 ( 3 % )                                 ;
+; Total logic elements               ; 147 / 18,752 ( < 1 % )                          ;
+;     Total combinational functions  ; 112 / 18,752 ( < 1 % )                          ;
+;     Dedicated logic registers      ; 95 / 18,752 ( < 1 % )                           ;
+; Total registers                    ; 95                                              ;
+; Total pins                         ; 14 / 315 ( 4 % )                                ;
 ; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 33,272 / 239,616 ( 14 % )                       ;
+; Total memory bits                  ; 34,784 / 239,616 ( 15 % )                       ;
 ; Embedded Multiplier 9-bit elements ; 0 / 52 ( 0 % )                                  ;
 ; Total PLLs                         ; 1 / 4 ( 25 % )                                  ;
 +------------------------------------+-------------------------------------------------+
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/01/2022 10:20:26 ;
+; Start date & time ; 08/01/2022 11:33:37 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; praticafiltro       ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 110073162760212.165936002615196 ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 110073162760212.165936441718680 ; --            ; --          ; --         ;
 ; IP_TOOL_NAME                        ; LPM_SHIFTREG                    ; --            ; --          ; --         ;
 ; IP_TOOL_NAME                        ; LPM_SHIFTREG                    ; --            ; --          ; --         ;
 ; IP_TOOL_NAME                        ; ROM: 1-PORT                     ; --            ; --          ; --         ;
@@ -103,11 +103,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4661 MB             ; 00:00:02                           ;
-; Fitter                    ; 00:00:03     ; 1.0                     ; 4847 MB             ; 00:00:03                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 4546 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4542 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:07     ; --                      ; --                  ; 00:00:07                           ;
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4670 MB             ; 00:00:03                           ;
+; Fitter                    ; 00:00:03     ; 1.0                     ; 4854 MB             ; 00:00:03                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 4565 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4564 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:09     ; --                      ; --                  ; 00:00:08                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
