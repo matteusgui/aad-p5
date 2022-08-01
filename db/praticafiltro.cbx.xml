@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="praticafiltro">
+		<CBX_INST_ENTRY INSTANCE_NAME="|top-level|MUX:inst9|lpm_mux:$00001" CBX_FILE_NAME="mux_lmc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top-level|memoria_imagem:inst5|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_dk91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top-level|praticafiltro:inst7|MUX:inst1|lpm_mux:$00001" CBX_FILE_NAME="mux_nmc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|top-level|praticafiltro:inst7|lpm_shiftreg0:inst3|lpm_shiftreg:LPM_SHIFTREG_component|altshift_taps:dffs_rtl_0" CBX_FILE_NAME="shift_taps_d3m.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
