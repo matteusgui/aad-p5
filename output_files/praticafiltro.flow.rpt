@@ -1,5 +1,5 @@
 Flow report for praticafiltro
-Mon Aug 01 11:33:47 2022
+Mon Aug 08 09:26:53 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,20 +40,20 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Mon Aug 01 11:33:46 2022           ;
+; Flow Status                        ; Successful - Mon Aug 08 09:26:50 2022           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; praticafiltro                                   ;
 ; Top-level Entity Name              ; top-level                                       ;
 ; Family                             ; Cyclone II                                      ;
 ; Device                             ; EP2C20F484C7                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 147 / 18,752 ( < 1 % )                          ;
-;     Total combinational functions  ; 112 / 18,752 ( < 1 % )                          ;
-;     Dedicated logic registers      ; 95 / 18,752 ( < 1 % )                           ;
-; Total registers                    ; 95                                              ;
-; Total pins                         ; 14 / 315 ( 4 % )                                ;
+; Total logic elements               ; 149 / 18,752 ( < 1 % )                          ;
+;     Total combinational functions  ; 105 / 18,752 ( < 1 % )                          ;
+;     Dedicated logic registers      ; 104 / 18,752 ( < 1 % )                          ;
+; Total registers                    ; 104                                             ;
+; Total pins                         ; 7 / 315 ( 2 % )                                 ;
 ; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 34,784 / 239,616 ( 15 % )                       ;
+; Total memory bits                  ; 35,288 / 239,616 ( 15 % )                       ;
 ; Embedded Multiplier 9-bit elements ; 0 / 52 ( 0 % )                                  ;
 ; Total PLLs                         ; 1 / 4 ( 25 % )                                  ;
 +------------------------------------+-------------------------------------------------+
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/01/2022 11:33:37 ;
+; Start date & time ; 08/08/2022 09:26:37 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; praticafiltro       ;
 +-------------------+---------------------+
@@ -75,10 +75,16 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 110073162760212.165936441718680 ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 110073162760212.165996159701652 ; --            ; --          ; --         ;
 ; IP_TOOL_NAME                        ; LPM_SHIFTREG                    ; --            ; --          ; --         ;
 ; IP_TOOL_NAME                        ; LPM_SHIFTREG                    ; --            ; --          ; --         ;
 ; IP_TOOL_NAME                        ; ROM: 1-PORT                     ; --            ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                    ; --            ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                    ; --            ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_CONSTANT                    ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --         ;
 ; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --         ;
 ; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --         ;
 ; IP_TOOL_VERSION                     ; 13.0                            ; --            ; --          ; --         ;
@@ -90,6 +96,12 @@ applicable agreement for further details.
 ; MISC_FILE                           ; lpm_shiftreg1_bb.v              ; --            ; --          ; --         ;
 ; MISC_FILE                           ; memoria_imagem.bsf              ; --            ; --          ; --         ;
 ; MISC_FILE                           ; memoria_imagem_bb.v             ; --            ; --          ; --         ;
+; MISC_FILE                           ; lpm_constant0.bsf               ; --            ; --          ; --         ;
+; MISC_FILE                           ; lpm_constant0_bb.v              ; --            ; --          ; --         ;
+; MISC_FILE                           ; lpm_constant1.bsf               ; --            ; --          ; --         ;
+; MISC_FILE                           ; lpm_constant1_bb.v              ; --            ; --          ; --         ;
+; MISC_FILE                           ; lpm_constant2.bsf               ; --            ; --          ; --         ;
+; MISC_FILE                           ; lpm_constant2_bb.v              ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; 16764057                        ; --            ; top-level   ; Top        ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; top-level   ; Top        ;
 ; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; top-level   ; Top        ;
@@ -103,11 +115,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4670 MB             ; 00:00:03                           ;
-; Fitter                    ; 00:00:03     ; 1.0                     ; 4854 MB             ; 00:00:03                           ;
-; Assembler                 ; 00:00:02     ; 1.0                     ; 4565 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4564 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:09     ; --                      ; --                  ; 00:00:08                           ;
+; Analysis & Synthesis      ; 00:00:05     ; 1.0                     ; 4682 MB             ; 00:00:04                           ;
+; Fitter                    ; 00:00:06     ; 1.0                     ; 4858 MB             ; 00:00:04                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4565 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4553 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:14     ; --                      ; --                  ; 00:00:10                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
